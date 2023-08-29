@@ -3,14 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    background-color:#f6f8f9 ;
+}
+
 ul, ol{
     list-style: none;
     margin: 0;
     padding: 10px 0px;
 }
+
+
 li{
-    padding: 5px 0;
+    padding: 6px 0;
 }
+
+/*inizio header */
 
 header {   
     height: 70px;
@@ -28,24 +38,19 @@ header {
     line-height: 50px;
     font-family: 'IBM Plex Mono', monospace;
 }
+/*fine header */
 
-main{
-    
-    background-color:/*#f6f8f9*/ red;
-    height: 100vh;
-    
-    
-}
+/*inizio main */
 
-.cointainer-one{
+.container-one{
     padding-top: 30px;
     max-width: 800px;
     margin: auto;
-    background-color: /*#f6f8f9*/ red;
+    background-color: #f6f8f9 ;
 }
 
 
-
+/*prima sezione */
 .first{
     height: 30px;
     width: 800px;
@@ -55,8 +60,7 @@ main{
     border-radius: 5px 5px 0px 0px  ;
 }
 
-
-
+/*primo bottone */
 #first-a {
    
     background-color: #47acf1;
@@ -67,6 +71,7 @@ main{
     
 }
 
+/*secondo bottone */
 #second-a {
     
     
@@ -77,6 +82,7 @@ main{
     border: 1px solid grey;
 }
 
+/*seconda sezione */
 .second{
     height: 500px;
     width: 800px;
@@ -84,20 +90,26 @@ main{
     padding: 30px 30px ;
 }
 
-
+/*simbolo cross */
 .cross{
     color: red;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 26px;
 }
 
-.check{
-    color: #71c5b1;
-    border-radius:45% 49%;
-    padding:1px;
-    border:1px solid green;
-
+/*check fatto*/
+.circle{           
+    width: 20px;        
+    height: 20px;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    color: green;
+    line-height: 20px;
+      
+    
 }
+/*inizio caselle colorate */
 
 .box  {
     background-color: #47acf1;
@@ -147,8 +159,12 @@ main{
     border-radius: 8px;
     font-size: 10px;
 }
+/*fine caselle colorate */
+
 
 h3{
     font-weight: bolder;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik Mono One', ;
 }
+
+/*fine  main */
